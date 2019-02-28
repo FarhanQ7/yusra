@@ -1,0 +1,37 @@
+.article{
+  margin: 120px auto;
+  text-align: center;
+  width: 80%;
+}
+
+.article h1{
+  font-size: 50px;
+  font-family: 'Baloo', cursive;
+  color: #E57F92;
+}
+.article .article_head img{
+  width: 80%;
+}
+
+.article .text{
+  width: 55%;
+  margin: 60px auto;
+  text-align: left;
+}
+
+.article .text p{
+  font-size: 20px;
+  font-weight: lighter;
+  line-height: 180%;
+  color: #193441;
+  letter-spacing: 1px;
+  white-space: normal;
+}
+
+
+.article .text p::first-letter{
+  font-family: 'Baloo', cursive;
+  font-size: 80px;
+  font-weight: bold;
+  color: #E57F92;
+}

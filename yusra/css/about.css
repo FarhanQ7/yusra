@@ -1,34 +1,198 @@
-@import url('https://fonts.googleapis.com/css?family=Baloo|Poppins');
+
+@import url('https://fonts.googleapis.com/css?family=Lobster');
 
 
-.main-head{
-  margin-top: -110px;
+.banner{
+  /* position: fixed; */
+  z-index: 22;
   width: 100%;
-  height:60vh;
-  text-align: center;
-  background: linear-gradient(#0d0d8b62, #ee55768f), url("../images/bgb.jpg");
+  height: 60vh;
+  background: linear-gradient(180deg, rgba(0, 0, 88, 0.83) 0%, rgba(0, 0, 88, 0.8) 100%), url("../images/bg.jpg");
   background-size: cover;
+  background-repeat: no-repeat;
   background-position: center;
-  color: #ffffff;
 }
 
-.main-head h1{
-  font-size: 130px;
+.banner .content{
+  width: 80%;
+  margin: 0 auto;
+  position: absolute;
+  top:15em;
+  left: 10em;
+}
+
+.content h1{
+  font-size: 50px;
   font-family: 'Baloo', cursive;
-  padding-top: 90px;
+  color: #fff;
+  margin:0;
 }
 
-.about{
-  width:60%;
-  margin: 60px auto;
+.banner .border{
+  margin-top: -10px;
+  width: 150px;
+  height: 6px;
+  border: none;
+  background: #fff;
+  border-radius: 50px;
 }
 
-.about p{
-  font-size: 14px;
-  font-family: 'Poppins', sans-serif;
-  font-weight: 500;
-  color: #193441;
-  line-height: 40px;
-  letter-spacing: 1px;
-  text-align: justify;
+
+.main{
+  width: 80%;
+  margin: 6em auto;
+}
+
+.main .reason{
+  display: flex;
+}
+
+.mission{
+  margin: 0 auto;
+  width: 500px;
+  height: 388px;
+  border: 10px solid #E57F92;
+  background: linear-gradient(
+    rgba(8, 8, 26, 0.521), 
+    rgba(0, 0, 88, 0.35)
+  ), url("../images/jon-tyson-195064-unsplash.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.approch{
+  margin: 0 auto;
+  width: 500px;
+  height: 388px;
+  border: 10px solid #E57F92;
+  background: linear-gradient(
+    rgba(8, 8, 26, 0.521), 
+    rgba(0, 0, 88, 0.35)
+  ), url("../images/jeshoots-com-632498-unsplash.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+
+.mission,
+.approch{
+  color: #fff;
+}
+
+.mission h2,
+.approch h2{
+  z-index: 22;
+  font-family: 'Baloo', cursive;
+  font-size: 60px;
+  color:#E57F92;
+  margin: 60px auto 0;
+  padding: 20px 60px 0;
+  line-height: 80%;
+}
+
+
+.mission p,
+.approch p{
+  z-index: 22;
+  width: 400px;
+  text-shadow: rgba(0, 0, 0, 0.6);
+  margin: 0 auto;
+  padding: 20px 60px 0;
+}
+
+
+.qoute{
+  width: 70%;
+  margin: 6em auto;
+}
+
+.qoute p{
+  color:#193441;
+  font-size: 25px;
+  font-family: 'Lobster', cursive;
+}
+
+.qoute p::first-letter {
+  font-size: 60px;
+  color: #E57F92;
+}
+
+.ask{
+  width: 80%;
+  margin: 8em auto; 
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.DONATE{
+  margin: 5em auto;
+  text-align: center;
+}
+
+.DONATE ul li a{
+  text-decoration: none;
+  color: #000058;
+  opacity: 0.6;
+}
+
+
+.DONATE ul li a:hover{
+  opacity: 1;
+}
+.DONATE ul li{
+  display: inline-block;
+  font-size: 40px;
+  padding: 0 10px 30px;
+}
+
+.DONATE .bigDonate{
+  background: #000058;
+  padding: 40px 80px;
+  text-align: center;
+  color: #fff;
+  font-size: 50px;
+  font-family: 'Baloo', cursive;
+  text-decoration: none;
+}
+
+.contact{
+  display: block;
+}
+
+.contact h3{
+  color: #E57F92;
+  font-family: 'Baloo', cursive;
+  font-size: 35px;
+  margin-bottom: 0;
+}
+
+input[type="email"]{
+  display: block;
+  width: 400px;
+  height: 40px;
+  border: 2px solid #E57F92;
+  font-size: 16px;
+  color: #E57F92;
+  padding: 6px;
+  margin-bottom: 10px;
+}
+
+textarea{
+  display: block;
+  width: 400px;
+  border: 2px solid #E57F92;
+  font-size: 16px;
+  color: #E57F92;
+  padding: 6px;
+}
+
+.contact button{
+  border: none;
+  font-size: 20px;
+  background: #E57F92;
+  color: #fff;
+  width: 150px;
+  height: 40px;
+  margin: 10px auto;
 }

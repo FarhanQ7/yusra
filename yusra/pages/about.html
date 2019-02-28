@@ -4,40 +4,90 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width">
-	<title>Yusra | AboutUs</title>
-  <link href="../css/about.css" rel="stylesheet" type="text/css" />
-  <link rel="stylesheet" href="../css/main.css">
+	<title>Yusra</title>
+	<link href="../css/about.css" rel="stylesheet" type="text/css" />
+  <link href="../css/normalize.css" rel="stylesheet" type="text/css" />
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
 </head>
 
 <body>
 	<header>
 		<div class="topbar">
 			<div class="logo">
-				<img src="../images/yusra2.PNG" alt="logo">
+				<img src="../images/yusra.png" alt="logo">
       </div>
       <nav>
         <ul>
-          <li><a href="../index.html">HOME</a></li>
-          <li><a href="about.html">ABOUT</a></li>
-          <li><a href="contact.html">CONTACT</a></li>
+          <li><a href="../index.html">Home</a></li>
+          <li><a href="articles.html">Articles</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a
+            href="javascript:void(
+              window.open(
+                'https://form.jotform.com/90583681216157',
+                'blank',
+                'scrollbars=yes,
+                toolbar=no,
+                width=700,
+                height=500'
+              )
+            )
+          ">
+            Contact
+          </a></li>
           <li><a href="#" class="donate">DONATE</a></li>
         </ul>
       </nav>
       </div>
     </header>
-    <section class="main-head">
-     <h1>About Us</h1>
-    </section>
-    <section id="about" class="about">
-      <p>Lorem ipsum dolor amet direct trade locavore jianbing, succulents kombucha leggings 90's mustache you probably haven't heard of them hella. Tumblr pinterest pork belly, PBR&B woke squid everyday carry kinfolk cardigan affogato brunch pug succulents church-key. Neutra microdosing slow-carb meh art party. Kinfolk marfa blue bottle fam, yr before they sold out single-origin coffee put a bird on it green juice pabst. Plaid banjo tousled you probably haven't heard of them kickstarter fixie readymade. Letterpress authentic viral whatever wayfarers messenger bag. Direct trade unicorn banh mi gentrify tilde cloud bread gastropub.</p>
-      <p>Mlkshk meh flexitarian, selfies deep v photo booth scenester adaptogen man bun direct trade letterpress disrupt ennui vape truffaut. Venmo shabby chic selfies snackwave kickstarter. Echo park yr pickled enamel pin beard schlitz squid next level banh mi readymade mixtape salvia cold-pressed forage. Bitters iceland photo booth, green juice polaroid glossier taiyaki. Meh migas single-origin coffee vinyl put a bird on it aesthetic distillery crucifix af PBR&B. Jean shorts etsy gastropub palo santo semiotics.</p>
-    </section>
-  
+    <div class="banner">
+      <div class="content">
+        <h1>About Us</h1>
+        <div class="border"></div>
+      </div>
+    </div>
+    
+    <div class="main">
+      <div class="reason">
+        <div class="mission">
+          <h2>Our Mission</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis natus sequi minus sunt ratione quisquam deleniti nihil eaque. Sed amet iure aliquam dolor quibusdam natus quasi soluta necessitatibus suscipit? Sint.</p>
+        </div>
+        <div class="approch">
+          <h2>Our Approch</h2>
+          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quo, eaque sapiente? Similique aliquid neque aspernatur harum ex itaque dolorum placeat facere? Dolorem temporibus possimus vitae, porro quia necessitatibus dignissimos voluptates?</p>
+        </div>
+      </div>
+      <div class="qoute">
+        <p>"Sadaqah jariya describes charitable acts that are both voluntary and ongoing, to benefits others for today and for the future, too. These acts hold more benefit for the recipients, and, as such, can benefit the donor, too.</p>
+      </div>
+      <div class="ask">
+        <div class="DONATE">
+          <ul>
+            <li><a href="#"><i class="fab fa-twitter-square"></i></a></li>
+            <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+            <li><a href="#"><i class="fab fa-linkedin"></i></a></li>
+          </ul>
+          <a href="#" class="bigDonate">DONATE</a>
+        </div>
+        <div class="contact">
+          <h3>Get In Touch.</h3>
+          <input type="email" placeholder="Email" required>
+          <textarea name="massege" id="massege" cols="10" rows="10" placeholder="Massege..."></textarea>
+          <button>Submit</button>
+        </div>
+      </div>
+    </div>
+
 
     <footer>
       <p>coryricht &copy; 2018, made by: Mufty007</p>
     </footer>
-
-    <script src="script.js"></script>
+    
+    <script src="../js/script.js"></script>
+    <script
+			  src="https://code.jquery.com/jquery-3.3.1.js"
+			  integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+			  crossorigin="anonymous"></script>
   </body>
 </html>

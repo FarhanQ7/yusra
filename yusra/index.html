@@ -4,92 +4,136 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width">
-	<title>Yusra</title>
-  <link href="css/style.css" rel="stylesheet" type="text/css" />
-  <link rel="stylesheet" href="css/main.css">
+  <title>Yusra</title>
+  <!-- styles -->
+  <link rel="stylesheet" href="css/responsive.css">
+	<link href="css/style.css" rel="stylesheet" type="text/css" />
+  <link href="css/normalize.css" rel="stylesheet" type="text/css" />
 </head>
 
 <body>
 	<header>
 		<div class="topbar">
 			<div class="logo">
-				<img src="images/yusra2.PNG" alt="logo">
+				<img src="images/yusra.png" alt="logo">
       </div>
       <nav>
         <ul>
-          <li><a href="index.html">HOME</a></li>
-          <li><a href="pages/about.html">ABOUT</a></li>
-          <li><a href="pages/contact.html">CONTACT</a></li>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="pages/articles.html">Articles</a></li>
+          <li><a href="pages/about.html">About</a></li>
+          <li>
+              <a
+                href="javascript:void(
+                  window.open(
+                    'https://form.jotform.com/90583681216157',
+                    'blank',
+                    'scrollbars=yes,
+                    toolbar=no,
+                    width=700,
+                    height=500'
+                  )
+                )
+              ">
+                Contact
+              </a></li>
           <li><a href="#" class="donate">DONATE</a></li>
         </ul>
       </nav>
       </div>
     </header>
+
+    <!-- <div class="contact" id="popup" >
+      <div class="form">
+          <h3>Get In Touch.</h3>
+          <input type="email" placeholder="Email" required>
+          <textarea name="massege" id="massege" cols="10" rows="10" placeholder="Massege..."></textarea>
+          <button>Submit</button>
+      </div>
+      <div class="donated">
+        <h3>Sadaqah Jariya</h3>
+        <p>“Sadaqah jariya describes charitable acts that are both voluntary and ongoing, to benefits others for today and for the future, too. These acts hold more benefit for the recipients, and, as such, can benefit the donor, too.”</p>
+        <a href="#">DONATE</a>
+      </div>
+    </div> -->
+    
     <div class="overlay"></div>
-    <section class="main-head">
-      <div class="sad">
-        <h1>Help change this</h1>
-      </div>
-      <div class="smile">
-        <h1>to this!</h1>
-      </div>
-    </section>
+    <div class="main-head">
+        <h1>Help bring back these <span>SMILES</span></h1>
+    </div>
+
     <section class="action">
-      <h1>HOW CAN YOU HELP?</h1>
-      <hr>
+      <h1>Make a difference by Supporting these Organisations.</h1>
       <div class="cards">
         <div class="card">
           <img src="images/Unicef.jpg" alt="">
-          <a href="#">SUPPORT</a>
         </div>
          <div class="card">
-          <img src="images/dwb.png" alt="">
-          <a href="#">SUPPORT</a>
-        </div>
-         <div class="card">
-          <img src="images/hh.jpg" alt="">
-          <a href="#">SUPPORT</a>
-        </div>
-         <div class="card">
-          <img src="images/dwb.png" alt="">
-          <a href="#">SUPPORT</a>
+          <img src="images/dwb.jpg" alt="">
         </div>
          <div class="card">
           <img src="images/Unicef.jpg" alt="">
-          <a href="#">SUPPORT</a>
         </div>
          <div class="card">
-          <img src="images/dwb.png" alt="">
-          <a href="#">SUPPORT</a>
-        </div>
+          <img src="images/dwb.jpg" alt="">
       </div>
     </section>
-    <br>
-    <div class="head">
-        <h1>Know more ...</h1>
-    </div>
-    <section id="articles" class="articles">
-      <a href="#" class="article">
-        <h2>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</h2>
-      </a>
-      <a href="#" class="article">
-         <h2>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</h2>
-      </a>
-      <a href="#" class="article">
-        <h2>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</h2>
-      </a>
-      <a href="#" class="article">
-        <h2>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</h2>
-      </a>
+
+      
+    <section id="articles">
+      <div class="articles">
+      <h1>Latest Articles</h1>
+      <ul class="latest_articles" id="latestArticles">
+        <li>
+          <a href="#">
+            <div class="article">
+            <img src="images/image01.jpg" alt="image">
+              <div class="some">
+                <p>Lorem ipsum dolor amet post-ironic whatever knausgaard, coloring book deep...</p>
+              </div>
+            </div>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <div class="article">
+            <img src="images/image01.jpg" alt="image">
+              <div class="some">
+                <p>Lorem ipsum dolor amet post-ironic whatever knausgaard, coloring book deep...</p>
+              </div>
+            </div>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <div class="article">
+            <img src="images/image01.jpg" alt="image">
+              <div class="some">
+                <p>Lorem ipsum dolor amet post-ironic whatever knausgaard, coloring book deep...</p>
+              </div>
+            </div>
+          </a>
+        </li>
+      </ul>
+      <div class="view">
+        <a href="../pages/articles.html">View All</a>
+      </div>
+      </div>
     </section>
 
-    <div class="more">
-      <a href="#" id="more">more</a>
-    </div>
+   <br>
+    <section class="recom">
+      <h1>Recommend a charity</h1>
+      <form action="#">
+        <input type="email" placeholder="Email" required>
+        <input type="text" placeholder="Carity Name" required>
+        <button>Submit</button>
+      </form>
+    </section>
     <footer>
       <p>coryricht &copy; 2018, made by: Mufty007</p>
     </footer>
-
-    <script src="script.js"></script>
+    
+    <script src="js/script.js"></script>
   </body>
 </html>
